@@ -108,11 +108,13 @@ Complete the exercise in the space below:
 */
 // !
 // const reverseString = (string) => {
-//     let newString = ""
-//     for(let i = string.length - 1; i >= 0; i--){
-//         newString += string[i] 
+//     let stringReverse = ""
+//     for(let index = 0; index < string.length; index++){
+//      const char = string[index]
+//    //  Add the char to the begining of my stringReverse 
+//      stringReverse = char + stringReverse
 //     }
-//     return newString
+//     return stringReverse
 // }
 
 // console.log('Exercise 6 Result:', reverseString("rockstar"));
